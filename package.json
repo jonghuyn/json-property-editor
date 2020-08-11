@@ -1,0 +1,36 @@
+{
+  "name": "json-property-editor",
+  "version": "1.0.0",
+  "description": "this is project for widget that json property editor",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonghuyn/json-property-editor.git"
+  },
+  "keywords": [
+    "tree",
+    "object",
+    "editor",
+    "widget"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonghuyn/json-property-editor/issues"
+  },
+  "homepage": "https://github.com/jonghuyn/json-property-editor#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
